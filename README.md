@@ -21,8 +21,3 @@ O resultado esperado é um aplicativo de gerenciamento de finanças pessoais fá
 * Finanças
 * Gestão
 * Aplicativo
-
-
-![home-page](https://github.com/user-attachments/assets/567f0821-0cfb-4907-92ab-650b2f2c76d2)
-![login-page](https://github.com/user-attachments/assets/ff4dc32b-1527-406d-9830-413b672d05b4)
-![signup-page](https://github.com/user-attachments/assets/0244f56d-c06b-4e08-9a9b-ab30aa7bdb28)
