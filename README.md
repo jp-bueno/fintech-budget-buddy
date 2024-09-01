@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# README - Aplicativo de Gestão Financeira
+### Introdução
+Este artigo apresenta o desenvolvimento de um aplicativo móvel voltado para a área de finanças pessoais. O objetivo principal é oferecer uma solução eficaz e de fácil uso para os usuários, suprindo a limitação de recursos encontrada na maioria dos aplicativos existentes, os quais geralmente são restritos a assinantes.
 
-## Getting Started
+### Motivação
+O gerenciamento eficaz das finanças pessoais é um desafio para muitas pessoas, exigindo tempo e esforço consideráveis. O uso de aplicativos móveis pode facilitar esse processo e torná-lo mais acessível a todos. Além disso, a demanda por soluções digitais nessa área está em ascensão.
 
-First, run the development server:
+### Desenvolvimento
+O desenvolvimento do aplicativo envolve a aplicação de conhecimentos sobre educação financeira, identificação das necessidades do mercado e análise dos concorrentes para encontrar oportunidades de melhoria. A pesquisa exploratória é conduzida por meio de entrevistas com potenciais usuários e análise de aplicativos concorrentes, além do uso de material bibliográfico de apoio.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Requisitos
+Será realizado um levantamento de requisitos funcionais e não funcionais, seguido pelo desenvolvimento do aplicativo com base nos diagramas de engenharia de software.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Testes
+O teste do aplicativo será realizado para garantir sua funcionalidade e qualidade, assegurando que atenda às necessidades dos usuários de forma eficaz e confiável.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Resultado Esperado
+O resultado esperado é um aplicativo de gerenciamento de finanças pessoais fácil de usar, confiável e seguro, que ajude os usuários a melhorar sua saúde financeira.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Palavras-Chave
+* Finanças
+* Gestão
+* Aplicativo
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![home-page](https://github.com/user-attachments/assets/567f0821-0cfb-4907-92ab-650b2f2c76d2)
+![login-page](https://github.com/user-attachments/assets/ff4dc32b-1527-406d-9830-413b672d05b4)
+![signup-page](https://github.com/user-attachments/assets/0244f56d-c06b-4e08-9a9b-ab30aa7bdb28)
