@@ -1,23 +1,64 @@
-# README - Aplicativo de Gestão Financeira
-### Introdução
-Este artigo apresenta o desenvolvimento de um aplicativo móvel voltado para a área de finanças pessoais. O objetivo principal é oferecer uma solução eficaz e de fácil uso para os usuários, suprindo a limitação de recursos encontrada na maioria dos aplicativos existentes, os quais geralmente são restritos a assinantes.
+# Aplicativo de Gestão Financeira: Budget Buddy - TG2
 
-### Motivação
-O gerenciamento eficaz das finanças pessoais é um desafio para muitas pessoas, exigindo tempo e esforço consideráveis. O uso de aplicativos móveis pode facilitar esse processo e torná-lo mais acessível a todos. Além disso, a demanda por soluções digitais nessa área está em ascensão.
+Unidade: FATEC Campinas
 
-### Desenvolvimento
-O desenvolvimento do aplicativo envolve a aplicação de conhecimentos sobre educação financeira, identificação das necessidades do mercado e análise dos concorrentes para encontrar oportunidades de melhoria. A pesquisa exploratória é conduzida por meio de entrevistas com potenciais usuários e análise de aplicativos concorrentes, além do uso de material bibliográfico de apoio.
+Curso: Análise e Desenvolvimento de Sistemas
 
-### Requisitos
-Será realizado um levantamento de requisitos funcionais e não funcionais, seguido pelo desenvolvimento do aplicativo com base nos diagramas de engenharia de software.
+Discentes: João Pedro de Oliveira Bueno da Silva / João Pedro Del Judici Maceira
 
-### Testes
-O teste do aplicativo será realizado para garantir sua funcionalidade e qualidade, assegurando que atenda às necessidades dos usuários de forma eficaz e confiável.
+Orientador: Anderson Luiz Barbosa
 
-### Resultado Esperado
-O resultado esperado é um aplicativo de gerenciamento de finanças pessoais fácil de usar, confiável e seguro, que ajude os usuários a melhorar sua saúde financeira.
+---
 
-### Palavras-Chave
-* Finanças
-* Gestão
-* Aplicativo
+## ⛹️‍♂️ Equipe
+
+Discentes:
+
+- João Pedro de Oliveira Bueno da Silva
+- João Pedro Del Judici Maceira
+
+Orientador:
+
+- Anderson Luiz Barbosa
+
+## 📰 O projeto
+
+O Budget Buddy é um aplicativo de gestão financeira desenvolvido para atender às necessidades de usuários que buscam uma solução simples e eficiente para controlar suas finanças pessoais. 
+
+---
+
+## 🌟 Objetivo Principal
+
+Através de uma abordagem inovadora e completa, o Budget Buddy visa contribuir para a educação financeira e o bem-estar financeiro dos usuários, proporcionando uma experiência positiva e satisfatória. Com foco na facilidade de uso, segurança e personalização, o aplicativo permite registrar receitas e despesas, acompanhar o saldo e fluxo de caixa, definir metas e orçamentos, além de oferecer relatórios, gráficos e dicas para melhorar a saúde financeira. 
+
+---
+
+## ❓ De onde surgiu a ideia?
+
+A ideia do desenvolvimento de uma aplicação com foco em gestão de finanças surgiu em uma conversa sobre dinheiro e na percepção de que não existem muitos aplicativos que auxiliam as pessoas no controle de gastos e ganhos que são open source (gratuitos).
+
+---
+
+## 📅 Entregas
+
+[Introdução](https://www.notion.so/Introdu-o-1d1af00fe5e64b9d8291363b8c59893c?pvs=21)
+
+[Especificação do Sistema](https://www.notion.so/Especifica-o-do-Sistema-a8437bfd71024117adb7f1187fdc7f04?pvs=21)
+
+[Requisitos do Sistema](https://www.notion.so/Requisitos-do-Sistema-7d602e31f6044e9391b1e4a61fc23cef?pvs=21)
+
+[Definição do Projeto (Caso: Orientado Objeto)](https://www.notion.so/Defini-o-do-Projeto-Caso-Orientado-Objeto-fa60b70d78f146239f39857dca183115?pvs=21)
+
+[Escolha da Arquitetura da Solução](https://www.notion.so/Escolha-da-Arquitetura-da-Solu-o-e3e6a5b1b0eb4be0a7b8de42fb5eee98?pvs=21)
+
+[Considerações Finais](https://www.notion.so/Considera-es-Finais-1d1d8621afe34cc88489f60615ab0941?pvs=21)
+
+[Referências](https://www.notion.so/Refer-ncias-e66fafea9e3a4c738dd3de66288986c7?pvs=21)
+
+[Manual do Usuário](https://www.notion.so/Manual-do-Usu-rio-bdf874c26ab44ff28fee2c07d1fe2dbd?pvs=21)
+
+---
+
+## 🔗 Documentos do Projeto
+
+[https://github.com/jp-bueno/fintech-budget-buddy](https://github.com/jp-bueno/fintech-budget-buddy)
