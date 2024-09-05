@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Button onClick={onOpen}>
-        Add an account
+        Adicionar Conta
       </Button>
     </div>
   );

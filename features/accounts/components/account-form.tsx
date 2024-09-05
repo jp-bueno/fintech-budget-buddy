@@ -66,7 +66,7 @@ export const AccountForm = ({
                         <FormControl>
                             <Input 
                             disabled={disabled}
-                            placeholder="e.g. Cash, Bank, Credit Card"
+                            placeholder="ex. Dinheiro, Banco, Cartão de Crédito"
                             {...field}
                             />
                         </FormControl>
@@ -74,7 +74,7 @@ export const AccountForm = ({
                 )}
                 />
                 <Button className="w-full" disabled={disabled}>
-                    {id ? "Save changes" : "Create account"}
+                    {id ? "Salvar alterações" : "Criar Conta"}
                 </Button>
                 {!!id && (
                 <Button
