@@ -1,7 +1,17 @@
-import { UserButton } from "@clerk/nextjs";
+"use client";
+
+import { useNewAccount } from "@/features/accounts/hooks/use-new-account";
+
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
+  const { onOpen } = useNewAccount();
+
   return (
-    <UserButton afterSignOutUrl="/"/>
+    <div>
+      <Button onClick={onOpen}>
+        Adicionar Conta
+      </Button>
+    </div>
   );
-}
+};
