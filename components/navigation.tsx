@@ -23,7 +23,7 @@ const routes = [
   },
   {
     href: "/categories",
-    label: "Categories",
+    label: "Categorias",
   },
   {
     href: "/settings",
