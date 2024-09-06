@@ -15,6 +15,13 @@
       "when": 1725321244512,
       "tag": "0001_lyrical_krista_starr",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1725583668075,
+      "tag": "0002_sturdy_union_jack",
+      "breakpoints": true
     }
   ]
 }
