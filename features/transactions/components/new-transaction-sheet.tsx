@@ -1,7 +1,7 @@
 import { z } from "zod";
 
-import { useNewTransaction } from "../hooks/use-new-transaction";
-import { useCreateTransaction } from "../api/use-create-transaction";
+import { useNewTransaction } from "@/features/transactions/hooks/use-new-transaction";
+import { useCreateTransaction } from "@/features/transactions/api/use-create-transaction";
 import { insertTransactionSchema } from "@/db/schema";
 import { useCreateCategory } from "@/features/categories/api/use-create-category";
 
@@ -14,9 +14,9 @@ import {
 } from "@/components/ui/sheet";
 import { useGetCategories } from "@/features/categories/api/use-get-categories";
 import { useGetAccounts } from "@/features/accounts/api/use-get-accounts";
-import { useCreateAccount } from "@/features/accounts/api/use-create-account";
 import { TransactionForm } from "./transaction-form";
 import { Loader2 } from "lucide-react";
+import { useCreateAccount } from "@/features/accounts/api/use-create-account";
 
 const formSchema = insertTransactionSchema.omit({
   id: true,

@@ -37,7 +37,7 @@ export const AmountInput = ({
     <div className="relative">
       <TooltipProvider>
         <Tooltip delayDuration={100}>
-          <TooltipTrigger>
+          <TooltipTrigger asChild>
             <button
               type="button"
               onClick={onReverseValue}
@@ -53,7 +53,7 @@ export const AmountInput = ({
             </button>
           </TooltipTrigger>
           <TooltipContent>
-            Use [+] para entrade e [-] para saidas
+            Use [+] para entrada e [-] para saídas
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
@@ -70,7 +70,7 @@ export const AmountInput = ({
       />
       <p className="text-xs text-muted-foreground mt-2">
         {isIncome && "Entrada"}
-        {isExpense && "Saida"}
+        {isExpense && "Saída"}
       </p>
     </div>
   );

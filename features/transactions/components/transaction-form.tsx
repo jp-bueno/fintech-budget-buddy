@@ -140,11 +140,11 @@ export const TransactionForm = ({
           control={form.control}
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Beneficiário</FormLabel>
+              <FormLabel>Recebedor</FormLabel>
               <FormControl>
                 <Input
                 disabled={disabled}
-                placeholder="Adicione um beneficiário"
+                placeholder="Adicione um recebedor"
                 {...field}
                 />
               </FormControl>
