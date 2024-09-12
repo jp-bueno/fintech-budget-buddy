@@ -22,9 +22,7 @@ export const AmountInput = ({
   placeholder,
   disabled,
 }: Props) => {
-  const parsedValue = value 
-    ? parseFloat(value.replace(".", "").replace(",", ".")) 
-    : 0;
+  const parsedValue = value ? parseFloat(value.replace(',', '.')) : 0;
 
   const isIncome = parsedValue > 0;
   const isExpense = parsedValue < 0;
@@ -32,10 +30,8 @@ export const AmountInput = ({
   const onReverseValue = () => {
     if (!value) return;
 
-    const newValue = (parsedValue * -1)
-      .toFixed(2)
-      .replace(".", ",");
-    onChange(newValue);
+    const newValue = parseFloat(value) * -1;
+    onChange(newValue.toString());
   };
 
   return (
@@ -68,9 +64,7 @@ export const AmountInput = ({
         placeholder={placeholder}
         value={value}
         decimalsLimit={2}
-        decimalSeparator=","
-        groupSeparator="."
-        // decimalScale={2}
+        decimalScale={2}
         onValueChange={onChange}
         disabled={disabled}
       />
