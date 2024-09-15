@@ -80,8 +80,8 @@ const app = new Hono()
             );
             const [lastPeriod] = await fetchFinancialData(
                 auth.userId,
-                startDate,
-                endDate,
+                lastPeriodStart,
+                lastPeriodEnd,
             );
 
             const incomeChange = calculatePercentageChange(
@@ -180,6 +180,7 @@ const app = new Hono()
             return c.json({
                 data: {
                     remainingAmount: currentPeriod.remaining,
+                    remainingChange,
                     incomeAmount: currentPeriod.income,
                     incomeChange,
                     expensesAmount: currentPeriod.expenses,
