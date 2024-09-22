@@ -7,7 +7,7 @@ import { Filters } from "@/components/filters";
 
 export const Header = () => {
   return (
-    <header style={{ backgroundImage: 'linear-gradient(to right, #002147, #063d7b)' }} className="bg-gradient-to-b px-4 py-8 lg:px-14 pb-36">
+    <header style={{ backgroundImage: 'linear-gradient(to right, #0D1B2A, #415A77)' }} className="bg-gradient-to-b px-4 py-8 lg:px-14 pb-36">
       <div className="max-w-screen-2xl mx-auto">
         <div className="w-full flex items-center justify-between mb-14">
           <div className="flex items-center lg:gap-x-16">

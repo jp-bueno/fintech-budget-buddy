@@ -10,7 +10,7 @@ export const WelcomeMsg = () => {
             <h2 className="text-1xl lg:text-4xl text-white font-medium">
                 Bem-vindo de Volta{isLoaded ? ", " : " "}{user?.firstName} 👋
             </h2>
-            <p className="text-sm lg:text-base text-[#89B6FD]">Esse é o seu Relatório Financeiro Geral</p>
+            <p className="text-sm lg:text-base text-[#778DA9]">Esse é o seu Relatório Financeiro Geral</p>
         </div>
     )
 }

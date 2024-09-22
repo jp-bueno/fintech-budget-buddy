@@ -17,7 +17,7 @@ import { SheetProvider } from "@/providers/sheet-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Budget Buddy",
+  title: "Budget Buddy - Gestão Financeira",
   description: "Aplicativo de Gestão Financeira - Budget Buddy",
 };
 
