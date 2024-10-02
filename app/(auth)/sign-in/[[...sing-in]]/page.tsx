@@ -27,7 +27,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div style={{ backgroundColor: '#002147' }} className="h-full hidden lg:flex items-center justify-center">
+      <div style={{ backgroundColor: '#0D1B2A' }} className="h-full hidden lg:flex items-center justify-center">
         <Image src="/logo.svg" height={100} width={100} alt={"logo"}></Image>
       </div>
     </div>

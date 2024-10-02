@@ -69,12 +69,24 @@ export function DataTable<TData, TValue>({
     },
   });
 
+
+  const traduzirFilterKey = (filterKey: string): string => {
+    switch (filterKey) {
+      case "name":
+        return "Nome";
+      case "payee":
+        return "Recebedor";
+      default:
+        return filterKey;
+    }
+  };
+
   return (
     <div>
       <ConfirmDialog />
       <div className="flex items-center py-4">
         <Input
-          placeholder={`Filtre por ${filterKey}...`}
+          placeholder={`Filtre por ${traduzirFilterKey(filterKey)}...`}
           value={(table.getColumn(filterKey)?.getFilterValue() as string) ?? ""}
           onChange={(event) =>
             table.getColumn(filterKey)?.setFilterValue(event.target.value)
@@ -176,3 +188,7 @@ export function DataTable<TData, TValue>({
     </div>
   );
 }
+function filtrarFilterKey() {
+  throw new Error("Function not implemented.");
+}
+

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { format, subDays } from "date-fns";
+import { ptBR } from "date-fns/locale";
 import { DateRange } from "react-day-picker";
 import { ChevronDown } from "lucide-react";
 import qs from "query-string";
@@ -46,8 +47,8 @@ export const DateFilter = () => {
 
     const pushToUrl = (dateRange: DateRange | undefined) => {
         const query = {
-            from: format(dateRange?.from || defaultFrom, "yyyy-MM-dd"),
-            to: format(dateRange?.to || defaultTo, "yyyy-MM-dd"),
+            from: format(dateRange?.from || defaultFrom, "yyyy-MM-dd", { locale: ptBR }), // Ajuste de formatação
+            to: format(dateRange?.to || defaultTo, "yyyy-MM-dd", { locale: ptBR }), // Ajuste de formatação
             accountId,
         };
 
@@ -89,6 +90,7 @@ export const DateFilter = () => {
                     selected={date}
                     onSelect={setDate}
                     numberOfMonths={2}
+                    locale={ptBR}
                 />
                 <div className="p-4 w-full flex items-center gap-x-2">
                 <PopoverClose asChild>
