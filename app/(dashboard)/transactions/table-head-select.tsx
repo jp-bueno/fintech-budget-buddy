@@ -14,7 +14,7 @@ type Props = {
   onChange: (columnIndex: number, value: string | null) => void;
 };
 
-const options = ["amount", "payee", "date"];
+const options = ["valor", "recebedor", "data"];
 
 export const TableHeadSelect = ({
   columnIndex,
@@ -36,7 +36,7 @@ export const TableHeadSelect = ({
         <SelectValue placeholder="Pular" />
       </SelectTrigger>
       <SelectContent>
-        <SelectItem value="skip">Skip</SelectItem>
+        <SelectItem value="skip">Pular</SelectItem>
         {options.map((option, index) => {
           const disabled =
             Object.values(selectedColumns).includes(option) &&

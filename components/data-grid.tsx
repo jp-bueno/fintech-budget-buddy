@@ -45,7 +45,7 @@ export const DataGrid = () => {
         dateRange={dateRangeLabel}
       />
       <DataCard
-        title="Saida"
+        title="Saída"
         value={data?.expensesAmount}
         percentageChange={data?.expensesChange}
         icon={FaArrowTrendDown}
