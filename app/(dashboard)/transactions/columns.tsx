@@ -9,6 +9,7 @@ import { ArrowUpDown, MoreHorizontal } from "lucide-react";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Actions } from "./actions";
 import { format } from "date-fns";
+import { ptBR } from 'date-fns/locale';
 import { formatCurrency } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import { AccountColumn } from "./account-column";
@@ -57,7 +58,7 @@ export const columns: ColumnDef<ResponseType>[] = [
     },
     cell: ({ row }) => {
       const date = row.getValue("date") as Date;
-      return <span>{format(date, "dd MMMM, yyyy")}</span>;
+      return <span>{format(date, "dd MMMM, yyyy", { locale: ptBR }).replace(/(?:^|\s)\S/g, letter => letter.toUpperCase())}</span>;
     },
   },
   {

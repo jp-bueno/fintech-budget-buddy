@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ImportTable } from "./import-table";
 import { convertAmountToMiliunits } from "@/lib/utils";
 import {format, formatDate, parse} from "date-fns"
+import { ptBR } from 'date-fns/locale';
 
 const dateFormat = "yyyy-MM-dd HH:mm:ss";
 const outputFormat = "yyyy-MM-dd";
