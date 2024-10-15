@@ -22,7 +22,6 @@ export const useBulkDeleteAccount = () => {
     onSuccess: () => {
       toast.success("Contas deletada!");
       queryClient.invalidateQueries({ queryKey: ["accounts"] });
-      // TODO: invalidar summary
     },
     onError: () => {
       toast.error("Erro ao deletar contas");
