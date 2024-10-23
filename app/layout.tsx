@@ -13,6 +13,8 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 import { QueryProviders } from "@/providers/query-provider";
 import { SheetProvider } from "@/providers/sheet-provider";
+// fr-FR locale is imported as frFR
+import { ptBR } from '@clerk/localizations'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    <ClerkProvider localization={ptBR}>
       <html lang="en">
         <body className={inter.className}>
           <QueryProviders>
